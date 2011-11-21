@@ -45,7 +45,12 @@ puts "Theta vector:"
 puts thetaVec
 
 # get features to predict
-new_features = [2104,3]
+puts "Please, type features to predict against: "
+puts "First feature(x1): "
+x1 = gets.chomp 
+puts "Second feature(x2): "
+x2 = gets.chomp 
+new_features = [x1, x2]
 
 # predict and print
 h = thetaVec[0]
