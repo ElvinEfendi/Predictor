@@ -1,0 +1,5 @@
+This predictor program can predict the value of functions with two variables. 
+First of all we need to train program with examples.(in this case examples.csv)
+For example suppose we try to predict price of house against two paramters of house(e.g number of room and area).
+Firstly we train program with some known examples. After that we provide program with new paramaters(features of house)
+and the program tell us the appropriate price of house with given features.
